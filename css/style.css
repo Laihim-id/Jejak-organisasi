@@ -1,0 +1,23 @@
+:root{--laut:#0B4F5C;--pasir:#FAF3E3;--tinta:#12323A;--pelampung:#F28C28;--busa:#DDEBE8}
+body{font-family:'Nunito Sans',sans-serif;background:var(--pasir);color:var(--tinta);line-height:1.7}
+h1,h2,h3,h4,h5,.navbar-brand{font-family:'Bricolage Grotesque',sans-serif;font-weight:700}
+.navbar{background:var(--laut)}
+.navbar .nav-link{color:#dbeeea}
+.navbar .nav-link:hover,.navbar .nav-link.active{color:#fff;border-bottom:2px solid var(--pelampung)}
+.btn-pelampung{background:var(--pelampung);border:0;color:#2b1700;font-weight:700}
+.btn-pelampung:hover{background:#d97a18;color:#2b1700}
+.hero{background:var(--laut);color:#fff;padding:5rem 0 7rem;position:relative}
+.hero p{color:#cfe5e1;max-width:34rem}
+.hero-wave{position:absolute;bottom:-1px;left:0;width:100%;height:70px}
+.thumb{height:170px;display:flex;align-items:center;justify-content:center;font-size:3.5rem;border-radius:.5rem .5rem 0 0}
+.t1{background:#BFDDD6}.t2{background:#F6D9A8}.t3{background:#C9D7EE}
+.card{border:1px solid #e6dcc3;background:#fff}
+.stat{font-family:'Bricolage Grotesque',sans-serif;font-size:2.4rem;color:var(--laut);font-weight:800}
+footer{background:var(--tinta);color:#b9ccc9}
+footer a{color:#fff}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--pelampung);outline-offset:2px}
+.logo{width:120px;height:120px;object-fit:contain}
+.logo-besar{width:100%;max-width:200px;height:auto}
+.logo-hero{width:100%;max-width:260px;height:auto;background:#fff;padding:10px;border-radius:16px}
+.rata{text-align:justify}
+.foto-profil{width:100%;max-width:220px;height:auto;border-radius:12px}
